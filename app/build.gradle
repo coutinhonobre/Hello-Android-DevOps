@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.github.triplet.play'
 }
 
 def keystorePropertiesFile = rootProject.file("app/keystore.properties")
@@ -44,6 +45,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+}
+
+play {
+    serviceAccountCredentials.set(file("service-account.json"))
 }
 
 dependencies {

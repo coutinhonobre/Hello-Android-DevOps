@@ -4,6 +4,7 @@
 <ul>
     <li>Generate App Debug <code>./gradlew assembleDebug</code></li>
     <li>Generate App Release <code>./gradlew assembleRelease</code></li>
+    <li>Generate App Bundle - AAB format<code>./gradlew bundleRelease</code></li>
 </ul>
 
 <h2>Generate Keystore</h2>
@@ -65,3 +66,15 @@ buildTypes {
 </code>
 <p>Step 3</p>
 <code>./gradlew assembleRelease</code>
+
+<br/><br/>
+<h2>Publish App</h2>
+<code>https://play.google.com/console/u/0/developers</code>
+<h3>Gradle Play Publisher</h3>
+<a href="https://github.com/Triple-T/gradle-play-publisher">Gradle Play Publisher</a>
+<div>Add project <code>service-account.json</code> create file in Google Cloud Plataform</div>
+<div>Setup <code>gradle</code></div>
+<h3>Quick Start</h3>
+<ol>
+    <li><code>./gradlew bootstrapListing</code>
+</ol>
