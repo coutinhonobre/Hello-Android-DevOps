@@ -77,5 +77,6 @@ buildTypes {
 <h3>Quick Start</h3>
 <ol>
     <li>Basic Setup<code>./gradlew bootstrapListing</code></li>
+    <li>Generate Release<code>./gradlew bundleRelease</code></li>
     <li>Publishing listings <code>./gradlew publishListing</code></li>
 </ol>
