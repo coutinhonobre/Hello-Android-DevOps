@@ -76,5 +76,6 @@ buildTypes {
 <div>Setup <code>gradle</code></div>
 <h3>Quick Start</h3>
 <ol>
-    <li><code>./gradlew bootstrapListing</code>
+    <li>Basic Setup<code>./gradlew bootstrapListing</code></li>
+    <li>Publishing listings <code>./gradlew publishListing</code></li>
 </ol>
